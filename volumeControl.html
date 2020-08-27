@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    
+    <title>Audible Volume Controller</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" type="text/css" />
+  </head>
+
+  <body>
+    <h4>Audible Volume Controller</h4>
+    <h5>Current Volume: <span id="currentVolume"></span>%</h5>
+    <div class="slidecontainer">
+      <input type="range" min="0" max="100" value="60" class="slider" id="volumeRange">
+    </div>
+
+    <script src="volumeControl.js"></script>
+  </body>
+</html>

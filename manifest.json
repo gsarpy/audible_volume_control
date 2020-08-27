@@ -1,0 +1,10 @@
+{
+    "manifest_version": 2,
+    "name": "Audible Volume Controller",
+    "description": "A simple Chrome extension for controlling Audible playback volume.",
+    "version": "1.0.0",
+    "browser_action": {
+        "default_popup": "volumeControl.html"
+    },
+    "permissions": ["activeTab", "tabs"]
+}
